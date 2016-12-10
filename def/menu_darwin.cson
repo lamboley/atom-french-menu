@@ -1,0 +1,314 @@
+Menu:
+  Atom:
+    value: "Atom"
+    submenu:
+      "About Atom":
+        value: "À propos d’Atom"
+      "View License":
+        value: "Afficher la licence"
+      "Preferences…":
+        value: "Paramètres..."
+      "Config…":
+        value: "Configuration..."
+      "Init Script…":
+        value: "Script d'intialisation..."
+      "Keymap…":
+        value: "Raccourcis clavier..."
+      "Snippets…":
+        value: "Snippets..."
+      "Stylesheet…":
+        value: "Feuille de style..."
+      "Install Shell Commands":
+        value: "Installer les commandes Shell"
+      "Hide Atom":
+        value: "Cacher Atom"
+      "Hide Others":
+        value: "Cacher les autres"
+      "Show All":
+        value: "Afficher tout"
+      Quit:
+        value: "Quitter Atom"
+  File:
+    value: "Fichier"
+    submenu:
+      "New Window":
+        value: "Nouvelle fenêtre"
+      "New File":
+        value: "Nouveau fichier"
+      "Open…":
+        value: "Ouvrir..."
+      "Add Project Folder…":
+        value: "Ajouter un fichier de projet..."
+      "Reopen Last Item":
+        value: "Réouvrir le dernier élément..."
+      Save:
+        value: "Enregistrer"
+      "Save As…":
+        value: "Enregistrer sous..."
+      "Save All":
+        value: "Enregistrer tout"
+      "Close Tab":
+        value: "Fermer l'onglet"
+      "Close Pane":
+        value: "Fermer le volet"
+      "Close Window":
+        value: "Fermer la fenêtre"
+      "Close All Tabs":
+        value: "Fermer tous les onglets"
+  Edit:
+    value: "Édition"
+    submenu:
+      Undo:
+        value: "Annuler"
+      Redo:
+        value: "Rétablir"
+      Cut:
+        value: "Couper"
+      Copy:
+        value: "Copier"
+      "Copy Path":
+        value: "Copier le chemin d'accès"
+      Paste:
+        value: "Coller"
+      "Select All":
+        value: "Tout sélectionner"
+      "Toggle Comments":
+        value: "Commenter/Décommenter la sélection"
+      Lines:
+        value: "Lignes"
+        submenu:
+          Indent:
+            value: "Indenter"
+          Outdent:
+            value: "Désindenter"
+          "Auto Indent":
+            value: "Indentation automatique"
+          "Move Line Up":
+            value: "Déplacer les lignes sélectionnées vers le haut"
+          "Move Line Down":
+            value: "Déplacer les lignes sélectionnées vers le bas"
+          "Duplicate Lines":
+            value: "Dupliquer les lignes sélectionnées"
+          "Delete Line":
+            value: "Supprimer les lignes sélectionnées"
+          "Join Lines":
+            value: "Joindre les lignes sélectionnées"
+      Columns:
+        value: "Colonnes"
+        submenu:
+          "Move Selection Left":
+            value: "Déplacer la sélection vers la gauche"
+          "Move Selection Right":
+            value: "Déplacer la sélection vers la droite"
+      Text:
+        value: "Texte"
+        submenu:
+          "Upper Case":
+            value: "Majusculiser"
+          "Lower Case":
+            value: "Minusculiser"
+          "Delete to End of Word":
+            value: "Supprimer jusqu'à la fin du mot"
+          "Delete to Previous Word Boundary":
+            value: "Supprimer jusqu'à la limite de mot précédente"
+          "Delete to Next Word Boundary":
+            value: "Supprimer jusqu'à la limite de mot suivante"
+          "Delete Line":
+            value: "Supprimer les lignes sélectionnées"
+          Transpose:
+            value: "Transposer"
+      Folding:
+        value: "Pliage"
+        submenu:
+          Fold:
+            value: "Plier"
+          Unfold:
+            value: "Déplier"
+          "Unfold All":
+            value: "Tout déplier"
+          "Fold All":
+            value: "Tout plier"
+          "Fold Level 1":
+            value: "Plier (Niveau 1)"
+          "Fold Level 2":
+            value: "Plier (Niveau 2)"
+          "Fold Level 3":
+            value: "Plier (Niveau 3)"
+          "Fold Level 4":
+            value: "Plier (Niveau 4)"
+          "Fold Level 5":
+            value: "Plier (Niveau 5)"
+          "Fold Level 6":
+            value: "Plier (Niveau 6)"
+          "Fold Level 7":
+            value: "Plier (Niveau 7)"
+          "Fold Level 8":
+            value: "Plier (Niveau 8)"
+          "Fold Level 9":
+            value: "Plier (Niveau 9)"
+      "Reflow Selection":
+        value: "Reformater la sélection"
+      Bookmark:
+        value: "Marque-page"
+        submenu:
+          "View All":
+            value: "Voir tout"
+          "Toggle Bookmark":
+            value: "Marquer/Démarquer la sélection"
+          "Jump to Next Bookmark":
+            value: "Passer au marque-page suivant"
+          "Jump to Previous Bookmark":
+            value: "Passer au marque-page précédent"
+      "Select Encoding":
+        value: "Sélectionner l'encodage"
+      "Go to Line":
+        value: "Aller à une ligne spécifique"
+      "Select Grammar":
+        value: "Sélectionner le langage"
+  View:
+    value: "Affichage"
+    submenu:
+      "Toggle Full Screen":
+        value: "Basculer en plein écran"
+      Panes:
+        value: "Volets"
+        submenu:
+          "Split Up":
+            value: "Fractionner vers le haut ↑"
+          "Split Down":
+            value: "Fractionner vers le bas ↓"
+          "Split Left":
+            value: "Fractionner vers la gauche ←"
+          "Split Right":
+            value: "Fractionner vers la droite →"
+          "Focus Next Pane":
+            value: "Sélectionner le volet suivant"
+          "Focus Previous Pane":
+            value: "Sélectionner le volet précédent"
+          "Focus Pane Above":
+            value: "Sélectionner le volet ci-dessus ↑"
+          "Focus Pane Below":
+            value: "Sélectionner le volet ci-dessous ↓"
+          "Focus Pane On Left":
+            value: "Sélectionner le volet sur la gauche ←"
+          "Focus Pane On Right":
+            value: "Sélectionner le volet sur la droite →"
+          "Close Pane":
+            value: "Fermer le volet"
+      Developer:
+        value: "Développeur"
+        submenu:
+          "Open In Dev Mode…":
+            value: "Ouvrir en mode développeur..."
+          "Reload Window":
+            value: "Actualiser la fenêtre"
+          "Run Package Specs":
+            value: "Lancer les tests de packages"
+          "Toggle Developer Tools":
+            value: "Activer/Désactiver les outils de développement"
+      "Increase Font Size":
+        value: "Augmenter la taille de la police"
+      "Decrease Font Size":
+        value: "Diminuer la taille de la police"
+      "Reset Font Size":
+        value: "Réinitialiser la taille de la police"
+      "Toggle Soft Wrap":
+        value: "Activer/Désactiver le retour à la ligne automatique"
+      "Toggle Command Palette":
+        value: "Afficher/Cache la palette de commandes"
+      "Toggle Tree View":
+        value: "Afficher/Cacher la colonne de navigation"
+  Selection:
+    value: "Sélection"
+    submenu:
+      "Add Selection Above":
+        value: "Ajouter une ligne de sélection ci-dessus ↑"
+      "Add Selection Below":
+        value: "Ajouter une ligne de sélection ci-dessous ↓"
+      "Single Selection":
+        value: "Sélection unique"
+      "Split into Lines":
+        value: "Fractionner en plusieurs lignes"
+      "Select to Top":
+        value: "Sélectionner jusqu'en haut"
+      "Select to Bottom":
+        value: "Sélectionner jusqu'en bas"
+      "Select Line":
+        value: "Sélectionner la ligne"
+      "Select Word":
+        value: "Sélectionner le mot"
+      "Select to Beginning of Word":
+        value: "Sélectionner jusqu'au début du mot"
+      "Select to Beginning of Line":
+        value: "Sélectionner jusqu'au début de la ligne"
+      "Select to First Character of Line":
+        value: "Sélectionner jusqu'au premier caractère de la ligne"
+      "Select to End of Word":
+        value: "Sélectionner jusqu'à la fin du mot"
+      "Select to End of Line":
+        value: "Sélectionner jusqu'à la fin de la ligne"
+      "Select Inside Brackets":
+        value: "Sélectionner l'élément à l'intérieur de crochets"
+  Find:
+    value: "Rechercher"
+    submenu:
+      "Find in Buffer":
+        value: "Rechercher dans le buffer..."
+      "Replace in Buffer":
+        value: "Remplacer dans le buffer..."
+      "Select Next":
+        value: "Sélectionner l'élément suivant"
+      "Select All":
+        value: "Tout sélectionner"
+      "Toggle Find in Buffer":
+        value: "Afficher/Cacher le menu de recherche dans le buffer"
+      "Find in Project":
+        value: "Rechercher dans le projet..."
+      "Toggle Find in Project":
+        value: "Afficher/Cacher le menu de recherche dans le projet"
+      "Find Next":
+        value: "Rechercher l'élément suivant"
+      "Find Previous":
+        value: "Rechercher l'élément précédent"
+      "Replace Next":
+        value: "Remplacer l'élément suivant"
+      "Replace All":
+        value: "Tout remplacer"
+      "Clear History":
+        value: "Effacer l'historique"
+      "Find Buffer":
+        value: "Rechercher dans le buffer"
+      "Find File":
+        value: "Rechercher dans le fichier"
+      "Find Modified File":
+        value: "Rechercher dans le fichier modifié"
+  Packages:
+    value: "Packages"
+  Window:
+    value: "Fenêtre"
+    submenu:
+      Minimize:
+        value: "Minimiser"
+      Zoom:
+        value: "Zoomer"
+      "Bring All to Front":
+        value: "Tout mettre au premier plan"
+  Help:
+    value: "Aide"
+    submenu:
+      "Terms of Use":
+        value: "Conditions d'utilisation"
+      Documentation:
+        value: "Documentation"
+      Roadmap:
+        value: "Roadmap"
+      "Frequently Asked Questions":
+        value: "Foire aux questions"
+      "Community Discussions":
+        value: "Discussions communautaires"
+      "Report Issue":
+        value: "Signaler un bug"
+      "Search Issues":
+        value: "Rechercher des bugs"
+      "Welcome Guide":
+        value: "Guide d'introduction"
