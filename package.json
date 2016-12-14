@@ -222,11 +222,11 @@
   },
   "description": "Votre éditeur favori, maintenant en français. — Your favorite editor, now in French.",
   "keywords": [
-  "français",
-  "french",
-  "fr",
-  "translation",
-  "localization"
+    "français",
+    "french",
+    "fr",
+    "translation",
+    "localization"
   ],
   "devDependencies": {},
   "engines": {
@@ -243,5 +243,5 @@
     "type": "git",
     "url": "git+https://github.com/spidersouris/atom-french-menu.git"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
