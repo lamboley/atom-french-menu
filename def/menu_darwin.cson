@@ -1,5 +1,5 @@
 Menu:
-  Atom:
+  "Atom":
     value: "Atom"
     submenu:
       "About Atom":
@@ -26,9 +26,9 @@ Menu:
         value: "Cacher les autres"
       "Show All":
         value: "Afficher tout"
-      Quit:
+      "Quit":
         value: "Quitter Atom"
-  File:
+  "File":
     value: "Fichier"
     submenu:
       "New Window":
@@ -39,9 +39,14 @@ Menu:
         value: "Ouvrir..."
       "Add Project Folder…":
         value: "Ajouter un fichier de projet..."
+      "Reopen Project":
+        value: "Réouvrir un projet"
+        submenu:
+          "Clear Project History":
+            value: "Effacer l'historique"
       "Reopen Last Item":
         value: "Réouvrir le dernier élément..."
-      Save:
+      "Save":
         value: "Enregistrer"
       "Save As…":
         value: "Enregistrer sous..."
@@ -55,7 +60,7 @@ Menu:
         value: "Fermer la fenêtre"
       "Close All Tabs":
         value: "Fermer tous les onglets"
-  Edit:
+  "Edit":
     value: "Édition"
     submenu:
       Undo:
@@ -68,18 +73,18 @@ Menu:
         value: "Copier"
       "Copy Path":
         value: "Copier le chemin d'accès"
-      Paste:
+      "Paste":
         value: "Coller"
       "Select All":
         value: "Tout sélectionner"
       "Toggle Comments":
         value: "Commenter/Décommenter la sélection"
-      Lines:
+      "Lines":
         value: "Lignes"
         submenu:
-          Indent:
+          "Indent":
             value: "Indenter"
-          Outdent:
+          "Outdent":
             value: "Désindenter"
           "Auto Indent":
             value: "Indentation automatique"
@@ -93,14 +98,14 @@ Menu:
             value: "Supprimer les lignes sélectionnées"
           "Join Lines":
             value: "Joindre les lignes sélectionnées"
-      Columns:
+      "Columns":
         value: "Colonnes"
         submenu:
           "Move Selection Left":
             value: "Déplacer la sélection vers la gauche"
           "Move Selection Right":
             value: "Déplacer la sélection vers la droite"
-      Text:
+      "Text":
         value: "Texte"
         submenu:
           "Upper Case":
@@ -117,7 +122,7 @@ Menu:
             value: "Supprimer les lignes sélectionnées"
           Transpose:
             value: "Transposer"
-      Folding:
+      "Folding":
         value: "Pliage"
         submenu:
           Fold:
@@ -148,7 +153,7 @@ Menu:
             value: "Plier (Niveau 9)"
       "Reflow Selection":
         value: "Reformater la sélection"
-      Bookmark:
+      "Bookmark":
         value: "Marque-page"
         submenu:
           "View All":
@@ -165,7 +170,7 @@ Menu:
         value: "Aller à une ligne spécifique"
       "Select Grammar":
         value: "Sélectionner le langage"
-  View:
+  "View":
     value: "Affichage"
     submenu:
       "Toggle Full Screen":
@@ -195,7 +200,7 @@ Menu:
             value: "Sélectionner le volet sur la droite →"
           "Close Pane":
             value: "Fermer le volet"
-      Developer:
+      "Developer":
         value: "Développeur"
         submenu:
           "Open In Dev Mode…":
@@ -203,7 +208,9 @@ Menu:
           "Reload Window":
             value: "Actualiser la fenêtre"
           "Run Package Specs":
-            value: "Lancer les tests de packages"
+            value: "Lancer les tests des paquetages"
+          "Run Benchmarks":
+            value: "Lancer les tests de référence"
           "Toggle Developer Tools":
             value: "Activer/Désactiver les outils de développement"
       "Increase Font Size":
@@ -218,7 +225,7 @@ Menu:
         value: "Afficher/Cache la palette de commandes"
       "Toggle Tree View":
         value: "Afficher/Cacher la colonne de navigation"
-  Selection:
+  "Selection":
     value: "Sélection"
     submenu:
       "Add Selection Above":
@@ -249,7 +256,7 @@ Menu:
         value: "Sélectionner jusqu'à la fin de la ligne"
       "Select Inside Brackets":
         value: "Sélectionner l'élément à l'intérieur de crochets"
-  Find:
+  "Find":
     value: "Rechercher"
     submenu:
       "Find in Buffer":
@@ -282,9 +289,9 @@ Menu:
         value: "Rechercher dans le fichier"
       "Find Modified File":
         value: "Rechercher dans le fichier modifié"
-  Packages:
+  "Packages":
     value: "Packages"
-  Window:
+  "Window":
     value: "Fenêtre"
     submenu:
       Minimize:
@@ -293,14 +300,14 @@ Menu:
         value: "Zoomer"
       "Bring All to Front":
         value: "Tout mettre au premier plan"
-  Help:
+  "Help":
     value: "Aide"
     submenu:
       "Terms of Use":
         value: "Conditions d'utilisation"
-      Documentation:
+      "Documentation":
         value: "Documentation"
-      Roadmap:
+      "Roadmap":
         value: "Roadmap"
       "Frequently Asked Questions":
         value: "Foire aux questions"
