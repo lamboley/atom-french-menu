@@ -12,7 +12,7 @@ class FrenchMenu
     @defS = require "../def/settings"
 
   activate: (state) ->
-    setTimeout(@delay, atom.config.get('french-menu.delay'))
+    setTimeout(@delay, atom.config.get('atom-french-menu.delay'))
 
   delay: () =>
     Menu.localize(@defM)
