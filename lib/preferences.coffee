@@ -38,8 +38,17 @@ class Preferences
         btn.addEventListener('click', applyInstallPanelOnSwitch)
 
       window.FrenchMenu.pref.done = true
+
+      # Restore the flag when the settings panel is closed
+      editorPane = atom.workspace.getActivePane()
+      if editorPane
+        handler = editorPane.onDidRemoveItem (event) =>
+          if event.item.uri == 'atom://config'
+            window.JapaneseMenu.pref.done = false
+          handler.dispose()
+
     catch e
-      console.error "日本語化に失敗しました。", e
+      console.error "Echec de traduction en Francais", e
 
   @loadAllSettingsPanels: () =>
     # Load all settings panels

@@ -42,6 +42,7 @@ Settings:
     {label: "Installed Packages", value: "Packages installés"}
     {label: "Choose a Theme", value: "Choisir un thème"}
     {label: "Installed Themes", value: "Thèmes installés"}
+    {label: "Available Updates", value: "Mises à jours disponibles"}
     {label: "Install Packages", value: "Installer des packages"}
     {label: "Featured Packages", value: "Packages à la une"}
     {label: "Install Themes", value: "Installer des thèmes"}
