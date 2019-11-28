@@ -1,5 +1,5 @@
-Copyright (c) 2015 Spidersouris
-http://spidersouris.github.io/
+Copyright (c) 2015-2018 Spidersouris http://spidersouris.github.io/
+Copyright (c) 2019 lamboley
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
