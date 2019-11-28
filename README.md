@@ -1,3 +1,8 @@
+[![Download](https://img.shields.io/apm/dm/french-menu?label=Download)](https://atom.io/packages/french-menu)
+[![Version](https://img.shields.io/apm/v/french-menu?label=Version)](https://github.com/lamboley/atom-french-menu/releases)
+[![Licence](https://img.shields.io/apm/l/french-menu?label=Licence)](https://github.com/lamboley/atom-french-menu/blob/master/LICENSE)
+[![Tracker](https://img.shields.io/github/issues/lamboley/atom-french-menu.svg?label=Issues&style=popout)](https://github.com/lamboley/atom-french-menu/issues)
+
 # Atom - french-menu
 
 Your favorite text and code editor is now available in French within a package !
