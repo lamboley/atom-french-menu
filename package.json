@@ -1,5 +1,5 @@
 {
-  "name": "atom-french-menu",
+  "name": "french-menu",
   "main": "./lib/main",
   "version": "0.3.1",
   "description": "Your favorite text and code editor is now available in French within a package !",
