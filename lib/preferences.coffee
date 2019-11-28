@@ -39,6 +39,13 @@ class Preferences
 
       window.FrenchMenu.pref.done = true
 
+      # Restore the flag when the settings panel is closed
+      editorPane = atom.workspace.getActivePane()
+      if editorPane
+        handler = editorPane.onDidRemoveItem (event) =>
+          if event.item.uri == 'atom://config'
+            window.FrenchMenu.pref.done = false
+          handler.dispose()
     catch e
       console.error "Echec de traduction en Francais", e
 
