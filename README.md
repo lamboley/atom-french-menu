@@ -1,4 +1,4 @@
-# atom-french-menu
+# Atom - french-menu
 
 Your favorite text and code editor is now available in French within a package !
 
@@ -7,8 +7,3 @@ Your favorite text and code editor is now available in French within a package !
 ### Reference
 
 This project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319)
-
-### Issues
-
-When you open a new project, it is possible that a menu in english popup on the
-right of the 

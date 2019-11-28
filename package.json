@@ -1,5 +1,5 @@
 {
-  "name": "french-menu",
+  "name": "atom-french-menu",
   "main": "./lib/main",
   "version": "0.3.1",
   "description": "Your favorite text and code editor is now available in French within a package !",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.16.0 <2.0.0"
   },
   "dependencies": {},
   "keywords": [
@@ -19,11 +19,18 @@
     "translation",
     "localization"
   ],
-  "dependencies": {},
-  "readme": "# atom-french-menu\n\nYour favorite text and code editor is now available in French within a package !\n\n![Capture](https://user-images.githubusercontent.com/48674337/69827889-b21dc800-1219-11ea-9a40-4bb63229a35c.PNG)\n\n### Reference\n\nThis project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319)\n",
+  "readme": "# Atom - french-menu\n\nYour favorite text and code editor is now available in French within a package !\n\n![Capture](https://user-images.githubusercontent.com/48674337/69827889-b21dc800-1219-11ea-9a40-4bb63229a35c.PNG)\n\n### Reference\n\nThis project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319)\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/lamboley/atom-french-menu/issues"
   },
-  "homepage": "https://github.com/lamboley/atom-french-menu"
+  "homepage": "https://github.com/lamboley/atom-french-menu",
+  "configSchema": {
+    "delay": {
+      "type": "integer",
+      "default": 0,
+      "title": "Delay",
+      "description": "Workaround for fixing the 'File' menu on the right of the menu bar. It's a delay in ms, keep increase it if the menu appear in the right of the menu bar. A value of 1250 should be good enough."
+    }
+  }
 }
