@@ -5,7 +5,7 @@
   "description": "Your favorite text and code editor is now available in French within a package !",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lamboley/atom-french-menu.git"
+    "url": "https://github.com/lamboley/atom-french-menu.git"
   },
   "license": "MIT",
   "engines": {
