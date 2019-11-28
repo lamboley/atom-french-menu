@@ -255,6 +255,8 @@ Menu:
         value: "Rechercher dans le projet..."
       "Toggle Find in Project":
         value: "Afficher/Cacher le menu de recherche dans le projet"
+      "Find All":
+        value: "Tout rechercher"
       "Find Next":
         value: "Rechercher l'élément suivant"
       "Find Previous":
