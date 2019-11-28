@@ -1,7 +1,7 @@
 {
   "name": "french-menu",
   "main": "./lib/main",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Your favorite text and code editor is now available in French within a package !",
   "repository": {
     "type": "git",
