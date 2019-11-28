@@ -1,226 +1,17 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-        "spec": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-        "type": "local"
-      },
-      "C:\\Users\\Enzo\\AppData\\Local\\Temp\\apm-install-dir-116119-12656-156xe0"
-    ]
-  ],
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [
-      {
-        "name": "cson",
-        "version": "3.0.1",
-        "path": "node_modules/cson/out/lib/cson.js"
-      },
-      {
-        "name": "coffee-script",
-        "version": "1.9.3",
-        "path": "node_modules/cson/node_modules/coffee-script/lib/coffee-script/coffee-script.js"
-      },
-      {
-        "name": "cson-parser",
-        "version": "1.1.1",
-        "path": "node_modules/cson/node_modules/cson-parser/lib/cson-parser.js"
-      },
-      {
-        "name": "coffee-script",
-        "version": "1.9.0",
-        "path": "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/coffee-script.js"
-      },
-      {
-        "name": "extract-opts",
-        "version": "3.0.1",
-        "path": "node_modules/cson/node_modules/extract-opts/out/lib/extract-opts.js"
-      },
-      {
-        "name": "typechecker",
-        "version": "2.0.8",
-        "path": "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/out/lib/typechecker.js"
-      },
-      {
-        "name": "requirefresh",
-        "version": "2.0.0",
-        "path": "node_modules/cson/node_modules/requirefresh/out/lib/requirefresh.js"
-      },
-      {
-        "name": "safefs",
-        "version": "3.1.3",
-        "path": "node_modules/cson/node_modules/safefs/out/lib/safefs.js"
-      },
-      {
-        "name": "graceful-fs",
-        "version": "3.0.8",
-        "path": "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/graceful-fs.js"
-      }
-    ],
-    "extensions": {
-      ".coffee": [
-        "lib/main.coffee"
-      ],
-      ".js": [
-        "node_modules/cson/docs/assets/biscotto.js",
-        "node_modules/cson/docs/assets/search_data.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/browser.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/cake.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/coffee-script.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/command.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/grammar.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/helpers.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/index.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/lexer.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/nodes.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/optparse.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/parser.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/register.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/repl.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/rewriter.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/scope.js",
-        "node_modules/cson/node_modules/coffee-script/lib/coffee-script/sourcemap.js",
-        "node_modules/cson/node_modules/coffee-script/register.js",
-        "node_modules/cson/node_modules/coffee-script/repl.js",
-        "node_modules/cson/node_modules/cson-parser/lib/cson-parser.js",
-        "node_modules/cson/node_modules/cson-parser/lib/parse.js",
-        "node_modules/cson/node_modules/cson-parser/lib/stringify.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/browser.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/cake.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/coffee-script.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/command.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/grammar.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/helpers.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/index.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/lexer.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/nodes.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/optparse.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/parser.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/register.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/repl.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/rewriter.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/scope.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/sourcemap.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/register.js",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/repl.js",
-        "node_modules/cson/node_modules/extract-opts/example.js",
-        "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/cyclic.js",
-        "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/out/lib/typechecker.js",
-        "node_modules/cson/node_modules/extract-opts/out/lib/extract-opts.js",
-        "node_modules/cson/node_modules/requirefresh/out/lib/requirefresh.js",
-        "node_modules/cson/node_modules/safefs/cyclic.js",
-        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/fs.js",
-        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/graceful-fs.js",
-        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/polyfills.js",
-        "node_modules/cson/node_modules/safefs/out/lib/safefs.js",
-        "node_modules/cson/out/bin/cson-cli.js",
-        "node_modules/cson/out/lib/cson.js"
-      ],
-      ".json": [
-        "node_modules/cson/node_modules/coffee-script/bower.json",
-        "node_modules/cson/node_modules/coffee-script/package.json",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/bower.json",
-        "node_modules/cson/node_modules/cson-parser/node_modules/coffee-script/package.json",
-        "node_modules/cson/node_modules/cson-parser/package.json",
-        "node_modules/cson/node_modules/extract-opts/node_modules/typechecker/package.json",
-        "node_modules/cson/node_modules/extract-opts/package.json",
-        "node_modules/cson/node_modules/requirefresh/package.json",
-        "node_modules/cson/node_modules/safefs/node_modules/graceful-fs/package.json",
-        "node_modules/cson/node_modules/safefs/package.json",
-        "node_modules/cson/package.json",
-        "package.json"
-      ]
-    },
-    "folders": [
-      {
-        "paths": [
-          "def",
-          "lib",
-          ""
-        ],
-        "dependencies": {
-          "cson": "3.0.1"
-        }
-      },
-      {
-        "paths": [
-          "node_modules/cson/docs/assets",
-          "node_modules/cson/out/bin",
-          "node_modules/cson/out/lib",
-          "node_modules/cson"
-        ],
-        "dependencies": {
-          "coffee-script": "~1.9.0",
-          "cson-parser": "^1.0.6",
-          "extract-opts": "^3.0.1",
-          "requirefresh": "^2.0.0",
-          "safefs": "^3.1.2"
-        }
-      },
-      {
-        "paths": [
-          "node_modules/cson/node_modules/cson-parser/lib",
-          "node_modules/cson/node_modules/cson-parser"
-        ],
-        "dependencies": {
-          "coffee-script": "1.9.0"
-        }
-      },
-      {
-        "paths": [
-          "node_modules/cson/node_modules/extract-opts",
-          "node_modules/cson/node_modules/extract-opts/out/lib"
-        ],
-        "dependencies": {
-          "typechecker": "^2.0.8"
-        }
-      },
-      {
-        "paths": [
-          "node_modules/cson/node_modules/safefs",
-          "node_modules/cson/node_modules/safefs/out/lib"
-        ],
-        "dependencies": {
-          "graceful-fs": "^3.0.6"
-        }
-      }
-    ]
+  "name": "french-menu",
+  "main": "./lib/main",
+  "version": "0.3.1",
+  "description": "Atom - French Menu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamboley/atom-french-menu.git"
   },
-  "_from": "..\\d-116119-12656-oyq3bw\\package.tgz",
-  "_id": "french-menu@0.0.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/french-menu",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-    "spec": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-    "type": "local"
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
   },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "file:..\\d-116119-12656-oyq3bw\\package.tgz",
-  "_shasum": "bf370c3db8831b944a22b73a3e971f1989dc5d2c",
-  "_shrinkwrap": null,
-  "_spec": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\d-116119-12656-oyq3bw\\package.tgz",
-  "_where": "C:\\Users\\Enzo\\AppData\\Local\\Temp\\apm-install-dir-116119-12656-156xe0",
-  "bugs": {
-    "url": "https://github.com/lamboley/atom-french-menu/issues"
-  },
-  "dependencies": {
-    "cson": "3.0.1"
-  },
-  "description": "Votre éditeur favori, maintenant en français. — Your favorite editor, now in French.",
+  "dependencies": {},
   "keywords": [
     "français",
     "french",
@@ -228,20 +19,11 @@
     "translation",
     "localization"
   ],
-  "devDependencies": {},
-  "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+  "optionalDependencies": {},
+  "readme": "# atom-french-menu\n\nYour favorite text and code editor is now available in French within a package !\n\n![screenshot](https://user-images.githubusercontent.com/48674337/69826822-17bb8580-1215-11ea-8eeb-741b267be489.png)\n\n![screenshot2](https://user-images.githubusercontent.com/48674337/69826881-4f2a3200-1215-11ea-8291-6f2d87580970.png)\n\n![screenshot3](https://user-images.githubusercontent.com/48674337/69826900-649f5c00-1215-11ea-87e5-77074728845c.png)\n\n### Reference\n\nThis project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/lamboley/atom-french-menu/issues"
   },
   "homepage": "https://github.com/lamboley/atom-french-menu",
-  "license": "MIT",
-  "main": "./lib/main",
-  "name": "french-menu",
-  "optionalDependencies": {},
-  "readme": "# Atom - French Menu\n\nVotre éditeur de texte et de code favori est désormais disponible en français sous forme de package !\n\nYour favorite text and code editor is now available in French within a package!\n\n##### Création originale par [syon](https://atom.io/users/syon)\n\n##### Original creation by [syon](https://atom.io/users/syon)![screenshot](https://github.com/lamboley/atom-french-menu/raw/master/screenshot.png)\n\n![screenshot](https://github.com/lamboley/atom-french-menu/raw/master/screenshot2.png)\n\n![screenshot](https://github.com/lamboley/atom-french-menu/raw/master/screenshot3.png)\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lamboley/atom-french-menu.git"
-  },
-  "version": "0.2.2"
 }
