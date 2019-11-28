@@ -10,4 +10,4 @@ This project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) 
 
 Originaly created by [Spidersouris](//atom.io/users/Spidersouris).
 
-Currently maintened by [lamboley](//atom.io/users/lamboley).
+Currently maintained by [lamboley](//atom.io/users/lamboley).
