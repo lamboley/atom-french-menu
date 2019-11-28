@@ -13,7 +13,7 @@ class FrenchMenu
     @defS = CSON.load __dirname + "/../def/settings.cson"
 
   activate: (state) ->
-    setTimeout(@delay, 0)
+    setTimeout(@delay, 1200)
 
   delay: () =>
     Menu.localize(@defM)
