@@ -1,6 +1,6 @@
 Menu:
   "&File":
-    value: "Fichier (&F)"
+    value: "&Fichier"
     submenu:
       "New &Window":
         value: "Nouvelle fenêtre (&W)"
@@ -12,6 +12,11 @@ Menu:
         value: "Ouvrir un dossier..."
       "Add Project Folder…":
         value: "Ajouter un fichier de projet..."
+      "Reopen Project":
+        value: "Réouvrir un projet"
+        submenu:
+          "Clear Project History":
+            value: "Effacer l'historique des projets"
       "Reopen Last &Item":
         value: "Réouvrir le dernier élément (&I)"
       "Se&ttings":
@@ -43,7 +48,7 @@ Menu:
       "Close All Tabs":
         value: "Fermer tous les onglets"
   "&Edit":
-    value: "Édition (&E)"
+    value: "&Édition"
     submenu:
       "&Undo":
         value: "Annuler (&U)"
@@ -57,6 +62,8 @@ Menu:
         value: "Copier le chemin d'accès (&H)"
       "&Paste":
         value: "Coller (&P)"
+      "Paste Without Reformatting":
+        value: "Coller sans reformater"
       "Select &All":
         value: "Sélectionner tout (&A)"
       "&Toggle Comments":
@@ -153,7 +160,7 @@ Menu:
       "Select Grammar":
         value: "Sélectionner le langage"
   "&View":
-    value: "Affichage (&V)"
+    value: "&Affichage"
     submenu:
       "Toggle &Full Screen":
         value: "Basculer en plein écran (&F)"
@@ -208,7 +215,7 @@ Menu:
       "Toggle Tree View":
         value: "Afficher/Cacher la colonne de navigation"
   "&Selection":
-    value: "Sélection (&S)"
+    value: "&Sélection"
     submenu:
       "Add Selection &Above":
         value: "Ajouter une ligne de sélection ci-dessus ↑ (&A)"
@@ -239,7 +246,7 @@ Menu:
       "Select Inside Brackets":
         value: "Sélectionner l'élément à l'intérieur de crochets"
   "F&ind":
-    value: "Rechercher (&I)"
+    value: "&Rechercher"
     submenu:
       "Find in Buffer":
         value: "Rechercher dans le buffer..."
@@ -274,9 +281,9 @@ Menu:
       "Find Modified File":
         value: "Rechercher dans le fichier modifié"
   "&Packages":
-    value: "Packages (&P)"
+    value: "&Packages"
   "&Help":
-    value: "Aide (&H)"
+    value: "A&ide"
     submenu:
       "View &Terms of Use":
         value: "Conditions d'utilisation (&T)"
