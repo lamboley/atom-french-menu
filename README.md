@@ -6,4 +6,8 @@ Your favorite text and code editor is now available in French within a package !
 
 ### Reference
 
-This project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319)
+This project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319).
+
+Originaly created by [Spidersouris](//atom.io/users/Spidersouris).
+
+Currently maintened by [lamboley](//atom.io/users/lamboley).
