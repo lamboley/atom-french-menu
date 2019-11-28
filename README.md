@@ -1,19 +1,13 @@
-# Atom - French Menu
+# atom-french-menu
 
-Votre éditeur de texte et de code favori est désormais disponible en français sous forme de package !
+Your favorite text and code editor is now available in French within a package !
 
-Your favorite text and code editor is now available in French within a package!
+![screenshot](https://user-images.githubusercontent.com/48674337/69826822-17bb8580-1215-11ea-8eeb-741b267be489.png)
 
-###Un guide d'installation est disponible. [Cliquez ici](https://github.com/Spidersouris/atom-french-menu/wiki/Guide-d'installation) pour le consulter.
+![screenshot2](https://user-images.githubusercontent.com/48674337/69826881-4f2a3200-1215-11ea-8291-6f2d87580970.png)
 
-https://atom.io/packages/french-menu
+![screenshot3](https://user-images.githubusercontent.com/48674337/69826900-649f5c00-1215-11ea-87e5-77074728845c.png)
 
-![screenshot](https://github.com/spidersouris/atom-french-menu/raw/master/screenshot.png)
+### Reference
 
-![screenshot](https://github.com/spidersouris/atom-french-menu/raw/master/screenshot2.png)
-
-![screenshot](https://github.com/spidersouris/atom-french-menu/raw/master/screenshot3.png)
-
-##### Création originale par [syon](https://atom.io/users/syon)
-
-##### Original creation by [syon](https://atom.io/users/syon)
+This project is based on [atom-japanese-menu](//atom.io/packages/japanese-menu) by [syon](//atom.io/users/syon) and [korean-menu](//atom.io/packages/korean-menu) by [hue319](//atom.io/users/hue319)
