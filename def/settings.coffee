@@ -93,6 +93,11 @@ Settings:
         desc: "Mets à jour Atom automatiquement lorsqu'une nouvelle version est disponible."
       }
       {
+        id: 'core.closeDeletedFileTabs'
+        title: "Fermer les onglets des fichier supprimés"
+        desc: "Ferme l'onglet quand son fichier est supprimé en dehors d'Atom."
+      }
+      {
         id: 'core.autoHideMenuBar'
         title: "Cacher automatiquement la barre de menu"
         desc: "Cache automatiquement la barre de menu. Une fois l'option activée, la barre de menu pourra être activée et désactivée en appuyant sur Alt. Cette option ne fonctionne que sur Windows et Linux."
