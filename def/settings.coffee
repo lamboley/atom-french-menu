@@ -108,6 +108,14 @@ Settings:
         desc: "Si aucun onglet n'est ouvert dans une fenêtre et que la commande « Fermer l'onglet » est utilisée, ferme la fenêtre."
       }
       {
+        id: 'core.colorProfile'
+        title: "Profile de couleur"
+        desc: "Spécifie si Atom doit utiliser le profile de couleur de l'OS (recommendé) ou un profile de couleur alternatif. Changer ce paramètre requière un rechargement de Atom."
+        select:
+          default: "Utiliser le profile de couleur natif à l'OS actuel"
+          srgb: "Utiliser sRGB couleur"
+      }
+      {
         id: 'core.destroyEmptyPanes'
         title: "Supprimer les volets vides"
         desc: "Lorsque le dernier onglet d'un volet est fermé, ferme le volet en question."
