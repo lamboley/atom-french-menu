@@ -194,7 +194,7 @@ Settings:
       }
       {
         id: 'core.useProxySettingsWhenCallingApm'
-        title: "Utilise le proxy avec la commande 'apm'"
+        title: "Utilise un proxy avec la commande 'apm'"
         desc: "Utilise les paramètres de proxy quand l'outil 'apm' est utilisé."
       }
       {
