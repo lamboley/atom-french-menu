@@ -133,6 +133,16 @@ Settings:
         desc: "Encodage des caractères à utiliser par défaut lors de la lecture et de l'écriture de fichiers."
       }
       {
+        id: 'core.fileSystemWatcher'
+        title: "Surveillance de système de fichiers"
+        desc: "Choisi l'implémentation sous-jacente utilisé pour surveiller les changements de système de fichiers. Émuler les changements ne captuera aucun évenement causé par d'autres applications que Atom mais aidera à éviter les plantages et les gels."
+        select:
+          native: "API de la plateforme actuel"
+          experimental: "Surveillance de système de fichiers expérimental"
+          poll: "Vote"
+          atom: "Émuler avec les évenements d'Atom"
+      }
+      {
         id: 'core.followSymlinks'
         title: "Utiliser les liens symboliques"
         desc: "Utilise les liens symboliques lors de la recherche et de l'ouverture de fichiers à l'aide de Fuzzy Finder."
