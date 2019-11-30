@@ -172,7 +172,16 @@ Settings:
       {
         id: 'core.reopenProjectMenuCount'
         title: "Nombre de project récent"
-        desc: "Nombre de project récent à afficher dans le menu Réouvrir un project."
+        desc: "Nombre de project récent à afficher dans le menu 'Réouvrir un project'."
+      }
+      {
+        id: 'core.restorePreviousWindowsOnStart'
+        title: "Restaurer la fenêtre au prochain démarrage"
+        desc: "Quand 'non' est séléctionné, un environnement vide est chargé. Quand 'oui' est séléctionné et Atom est lancé depuis l'icône ou la ligne de commande, restaure le dernier état de toutes les fenêtres d'Atom; Sinon un environnement vide est chargé. Quand 'toujours' est séléctionné, restaure le dernier état de la fenêtre d'Atom peu importe comment l'application a été lancé."
+        select:
+          no: "Non"
+          yes: "Oui"
+          always: "Toujours"
       }
       {
         id: 'core.telemetryConsent'
@@ -182,6 +191,21 @@ Settings:
           limited: "Permettre l'envoi de statistiques d'utilisation, de rapport d'exceptions et de plantages anonymes"
           no: "N'envoyer aucun rapport ni donnée"
           undecided: "Incertain (Atom vous le demandera à son prochain lancement)"
+      }
+      {
+        id: 'core.useProxySettingsWhenCallingApm'
+        title: "Utilise le proxy avec la commande 'apm'"
+        desc: "Utilise les paramètres de proxy quand l'outil 'apm' est utilisé."
+      }
+      {
+        id: 'core.useTreeSitterParsers'
+        title: "Utilise Tree-Sitters"
+        desc: "Utilise Tree-Sitters pour les languages supportés."
+      }
+      {
+        id: 'core.versionPinnedPackages'
+        title: "Packages à la version bloquée"
+        desc: "Liste de nom de package installé qui ne sont automatiquement mis à jours."
       }
       {
         id: 'core.useCustomTitleBar'
