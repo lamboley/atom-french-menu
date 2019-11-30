@@ -170,6 +170,11 @@ Settings:
         desc: "Le répertoire contenant vos projets. Les packages créés à l'aide de Package Generator seront enregistrés dans celui-ci par défaut."
       }
       {
+        id: 'core.reopenProjectMenuCount'
+        title: "Nombre de project récent"
+        desc: "Nombre de project récent à afficher dans le menu Réouvrir un project."
+      }
+      {
         id: 'core.telemetryConsent'
         title: "Envoyer des rapports à l'équipe d'Atom"
         desc: "Permets d'envoyer des rapports de statistiques et d'exceptions à l'équipe d'Atom afin d'aider à l'amélioration du produit."
